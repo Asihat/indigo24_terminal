@@ -1,0 +1,9 @@
+.wrapper_enter_number .wrapper_enter_number_constructor .button_number {
+	width: 5.2%;
+}
+.wrapper_enter_number .wrapper_enter_number_constructor .button_number img {
+	width: auto;
+}
+.wrapper_enter_number .wrapper_enter_number_constructor {
+	justify-content: center;
+}

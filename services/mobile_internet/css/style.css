@@ -1,0 +1,266 @@
+.main_text {
+    font-size: 35px;
+    color: white;
+
+}
+.number_input {
+    padding: 10px;
+    font-size: 40px;
+    border: black 1px;
+    border-radius: 15px;
+    background-color: #fff831;
+}
+
+/* Mob page */
+.main_mob {
+    text-align: -webkit-center
+}
+.main_mob .main_p {
+    text-align: center;
+    font-size: 32px;
+}
+.main_mob a {
+    text-decoration: none;
+    color: black;
+}
+.mob_phones_page {
+    margin-top: 30px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 21px;
+}
+.mob_phones_page img {
+    width: 150px;
+}
+.button_to_main_page {
+    position: fixed;
+    bottom: 30px;
+    left: 500px;
+    text-align: center;
+    padding: 10px;
+    background-color: lightblue;
+    width: 20%;
+    margin: auto;
+    margin-top: 60px;
+}
+.button_to_main_page a {
+    text-decoration: none;
+    color: black;
+}
+.button_to_main_page p {
+    font-size: 25px;
+}
+
+
+/* End of Mob page */
+
+/* mob1.php page */
+.phone_logo {
+    margin-left: 650px;
+    margin-top: 30px;
+}
+.main_mob1 {
+    background-color: #363645;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 350px;
+    margin-top: 10px;
+}
+.wrapper_enter_number {
+    text-align: center;
+}
+
+
+.wrapper_enter_number .wrapper_enter_number_constructor .button_number img {
+    width: inherit;
+    height: inherit;
+}
+
+.button_back_and_next {
+    position: fixed;
+    bottom: 60px;
+    z-index: 100;
+
+    margin-top: 150px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+.button_back_and_next a {
+    text-decoration: none;
+    color: white;
+}
+.back_button {
+    padding: 10px;
+    background-color: #4ff364;
+    margin: 10px;
+    width: 150px;
+    text-align: center;
+    border: black 1px;
+    border-radius: 5px;
+}
+.next_button {
+    padding: 10px;
+    background-color: #4ff364;
+    margin: 10px;
+    width: 150px;
+    margin-left: 800px;
+    text-align: center;
+    border: black 1px;
+    border-radius: 5px;
+}
+
+
+/* End of mob1.php page */
+
+
+/* Start of mob1.2.php page */
+.mob1_2 {
+    background-color: #363645;
+}
+.mob1_2 h2 {
+    color: white;
+}
+.mob1_2 .check_page {
+    margin-top: 50px;
+}
+.mob1_2 .check_page .warning_img {
+    width: 100px;
+    text-align: center;
+    margin: auto;
+}
+.mob1_2 .check_page .warning_img img {
+    width: 100px;
+}
+.mob1_2 .check_page p {
+    color: white;
+}
+.mob1_2 .check_page .check_title {
+    font-size: 40px;
+}
+.mob1_2 .check_page .check_title_two {
+    font-size: 25px;
+}
+.mob1_2 .check_page .check_title_three {
+    font-size: 30px;
+}
+.mob1_2 .check_page .check_phone_number {
+    font-size: 60px;
+}
+
+/* End of mob1.2.php */
+/* Start of mob1.3.php page */
+.mob1_3 {
+    background-color: #363645;
+}
+.mob1_3 h2 {
+    color: white;
+}
+.mob1_3 .phone_number {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: black 1px solid;
+    border-radius: 5px;
+    font-size: 35px;
+}
+.info_page {
+    margin: auto;
+    margin-top: 50px;
+
+    width: 900px;
+}
+.info_page .main_title {
+    color: white;
+    font-size: 25px;
+}
+.info_page .wrapper {
+    color: white;
+    font-size: 25px;
+}
+.info_page .wrapper p {
+    border-bottom: 5px lightgray dotted;
+    font-size: 30px;
+}
+.info_page .wrapper .yellow_color {
+    color: yellow;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.info_page .wrapper span {
+    float: right;
+}
+.info_page .wrapper_info {
+    margin: auto;
+    text-align: center;
+}
+.info_page .wrapper_info img {
+    width: 75px;
+}
+.info_page .put_money {
+    color: yellow;
+    font-size: 35px;
+    text-align: center;
+}
+
+    /* End of mob1.3.php */
+
+
+/* Start of check.php */
+.check__page {
+    background-color:#363645 ;
+}
+.check__page .main_page {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.check__page .check_page {
+    text-align: left;
+    margin-left: 175px;
+    width: 580px;
+
+}
+.check__page .main_page img {
+    width: 75px;
+}
+
+.check__page .check_page .check_info {
+
+}
+.check__page .check_page .check_info p{
+    border-bottom: 5px lightgray dotted;
+}
+.check__page .check_page .check_info span {
+    text-align: right;
+    float: right;
+}
+
+.check__page .info_save_check {
+    color: #fffd2f;
+
+}
+.check__page .go_to_main {
+    text-decoration: none;
+    color: white;
+    background-color: #63a7dd;
+    padding: 20px;
+    width: 200px;
+    margin: auto;
+    border: black 1px solid;
+    border-radius: 10px;
+}
+.check__page .go_to_main a {
+    text-decoration: none;
+    color: white;
+
+}
+
+/* End of check.php */

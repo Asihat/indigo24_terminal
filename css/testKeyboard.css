@@ -1,0 +1,302 @@
+.testKeyboardAll {
+    position: fixed;
+
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+
+}
+/* End Keyboard */
+.eng_keyboard {
+
+    background: #c1c1c1;
+    font: 100 0/0 serif;
+    text-align: center;
+    display: none;
+
+}
+
+.eng_keyboard span {
+    vertical-align: top;
+    display: inline-block;
+    height: 85px;
+    width: 85px;
+    font: 900 50px/80px sans-serif;
+    background: #fff;
+    color: #000;
+    margin: 5px;
+    border: black;
+    border-radius: 5px;
+}
+
+.eng_keyboard .b05 {
+    width: 50px;
+}
+
+.eng_keyboard .empty {
+    background: transparent;
+}
+
+.eng_keyboard .b15 {
+    width: 150px;
+}
+
+.eng_keyboard .b20 {
+    width: 200px;
+}
+
+.eng_keyboard .b30 {
+    width: 340px;
+}
+
+.eng_keyboard .space {
+    width: 500px;
+}
+
+/* Rus keyboard */
+
+.rus_keyboard {
+    background: #c1c1c1;
+    font: 100 0/0 serif;
+    text-align: center;
+    display: none;
+}
+
+.rus_keyboard span {
+    vertical-align: top;
+    display: inline-block;
+    height: 85px;
+    width: 85px;
+    font: 900 50px/80px sans-serif;
+    background: #fff;
+    color: #000;
+    margin: 5px;
+    border: black;
+    border-radius: 5px;
+}
+
+.rus_keyboard .b05 {
+    width: 50px;
+}
+
+.rus_keyboard .empty {
+    background: transparent;
+}
+
+.rus_keyboard .b15 {
+    width: 150px;
+}
+
+.rus_keyboard .b20 {
+    width: 200px;
+}
+
+.rus_keyboard .b30 {
+    width: 340px;
+}
+
+.rus_keyboard .space {
+    width: 500px;
+}
+
+
+/* Symbol keyboard */
+.sym_keyboard {
+
+    background: #c1c1c1;
+    font: 100 0/0 serif;
+    text-align: center;
+    display: none;
+
+}
+
+.sym_keyboard span {
+    vertical-align: top;
+    display: inline-block;
+    height: 85px;
+    width: 85px;
+    font: 900 50px/80px sans-serif;
+    background: #fff;
+    color: #000;
+    margin: 5px;
+    border: black;
+    border-radius: 5px;
+}
+
+.sym_keyboard .b05 {
+    width: 50px;
+}
+
+.sym_keyboard .empty {
+    background: transparent;
+}
+
+.sym_keyboard .b15 {
+    width: 150px;
+}
+
+.sym_keyboard .b20 {
+    width: 200px;
+}
+
+.sym_keyboard .b30 {
+    width: 340px;
+}
+
+.sym_keyboard .space {
+    width: 500px;
+}
+
+/* Mob keyboard */
+
+.mob_keyboard {
+    padding-top: 10px;
+    background: #4c4c4c;
+    font: 100 0/0 serif;
+    text-align: center;
+    display: none;
+
+}
+
+.mob_keyboard span {
+    vertical-align: top;
+    display: inline-block;
+    height: 85px;
+    width: 85px;
+    font: 900 50px/80px sans-serif;
+    background: #fff;
+    color: #000;
+    margin: 5px;
+    border: black;
+    border-radius: 5px;
+}
+
+.mob_keyboard .b05 {
+    width: 50px;
+}
+
+.mob_keyboard .empty {
+    background: transparent;
+}
+
+.mob_keyboard .b15 {
+    width: 150px;
+}
+
+.mob_keyboard .b20 {
+    width: 200px;
+}
+
+.mob_keyboard .b30 {
+    width: 340px;
+}
+
+.mob_keyboard .space {
+    width: 500px;
+}
+
+/* Email Keyboard */
+.email_keyboard {
+    background: #c1c1c1;
+    font: 100 0/0 serif;
+    text-align: center;
+    display: none;
+
+}
+.email_keyboard span {
+    vertical-align: top;
+    display: inline-block;
+    height: 85px;
+    width: 85px;
+    font: 900 50px/80px sans-serif;
+    background: #fff;
+    color: #000;
+    margin: 5px;
+    border: black;
+    border-radius: 5px;
+}
+.email_keyboard .b05 {
+    width: 50px;
+}
+.email_keyboard .empty {
+    background: transparent;
+}
+.email_keyboard .b15 {
+    width: 150px;
+}
+.email_keyboard .b20 {
+    width: 200px;
+}
+.email_keyboard .b30 {
+    width: 340px;
+}
+.email_keyboard .space {
+    width: 400px;
+}
+
+
+
+
+
+
+
+/* FontAwesome styles */
+@font-face {
+    font-family: FA;
+
+    src: url('/fontawesome/webfonts/fa-solid-900.woff2') format('woff2');
+}
+
+.fa {
+    font: 400 30px/30px FA;
+}
+.fa.capslock::after {
+    font: 400 30px/30px FA;
+    content: '\f062';
+}
+.fa.backSpace::after {
+    font: 400 30px/30px FA;
+    content: '\f55a';
+}
+.fa.enter::after {
+    font: 400 30px/30px FA;
+    content: '\f061';
+}
+.fa.shift::after {
+    font: 400 30px/30px FA;
+    content: '\f338';
+}
+.fa.back::after {
+    font: 400 30px/30px FA;
+    content: '\f060';
+}
+.fa.close::after {
+    font: 400 30px/30px FA;
+    content: '\f063';
+}
+
+
+/* Focused input and p */
+
+.focused_p {
+    font-size: 85px !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    padding-left: 30px;
+    margin-top: 0;
+    background-color: #fff;
+    padding-bottom: 110px;
+    width: 100%;
+}
+.focused_input {
+    position: fixed;
+    top: 205px;
+    left: 10px;
+    width: 95%;
+    height: 310px;
+    font-size: 100px !important;
+    background-color: #9fcdff;
+}
