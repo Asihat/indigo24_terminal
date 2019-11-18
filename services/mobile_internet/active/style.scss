@@ -1,0 +1,48 @@
+.check__page {
+  background-color: #363645;
+  .main_page {
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    img {
+      width: 75px;
+    }
+  }
+  .check_page {
+    text-align: left;
+    width: 720px;
+    margin: auto;
+    .check_info {
+      p {
+        border-bottom: 5px lightgray dotted;
+      }
+      span {
+        text-align: right;
+        float: right;
+      }
+    }
+  }
+  .info_save_check {
+    color: #fffd2f;
+    font-size: 28px;
+  }
+  .go_to_main {
+    text-decoration: none;
+    color: white;
+    background-color: #63a7dd;
+    padding: 20px;
+    width: 200px;
+    margin: auto;
+    border: black 1px solid;
+    border-radius: 10px;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+.check_info {
+  span {
+    font-weight: bold;
+  }
+}

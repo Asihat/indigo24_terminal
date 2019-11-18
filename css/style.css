@@ -23,6 +23,7 @@ body {
 }
 
 .header {
+    padding: 20px;
 	background-color: #ffffff;
 	flex-direction: row;
 	
@@ -99,7 +100,22 @@ body {
 .nav .logo {
     position: absolute;
     right: 20px;
-    top: 60px;
+    top: 90px;
+}
+.nav .search_header_block {
+    margin: auto;
+    margin-left: 35px;
+    display: flex;
+}
+.nav .search_header_block input {
+    border: 1px black solid;
+    border-right: 1px solid white;
+    width: 250px;
+    height: 45px;
+}
+.nav .search_header_block .search_logo {
+    height: 45px;
+    margin: auto;
 }
 /* End of Header */
 
@@ -248,7 +264,6 @@ body {
     text-align: center;
 
 }
-
 .spinner > div {
     width: 30px;
     height: 30px;
@@ -285,5 +300,3 @@ body {
       }
 }
 /* End of preloader */
-
-

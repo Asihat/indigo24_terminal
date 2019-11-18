@@ -23,7 +23,7 @@ if(isset($_GET['lang']) && !empty($_GET['lang'])){
 } else {
     $_SESSION['lang'] = "ru";
 }
-echo $_SESSION['lang'];
+//echo $_SESSION['lang'];
 session_commit();
 // Include Language file
 if(isset($_SESSION['lang'])){

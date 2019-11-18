@@ -14,5 +14,5 @@
     define("_tax", "Налоги штрафы");
     define("_indigo24", "indigo24 кошелëк");
     define("_games", "Игры - приложения");
-
+    
 ?>

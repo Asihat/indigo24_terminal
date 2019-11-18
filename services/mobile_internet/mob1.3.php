@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="mob1_3">
+<body class="push_money">
 <div class="header">
     <div class="nav">
         <div class="main_logo">
@@ -42,7 +42,7 @@
 
 </div>
 <div class="button_back_and_next">
-    <div class="next_button"><a href="check.php">next</a></div>
+    <div class="next_button"><a href="active/check.php">next</a></div>
 </div>
 
 

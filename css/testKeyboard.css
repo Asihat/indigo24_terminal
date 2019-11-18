@@ -4,13 +4,16 @@
     bottom: 0;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 100%;
+    width: 1280px;
 
+}
+.testKeyboard {
+    padding-bottom: 70px;
 }
 /* End Keyboard */
 .eng_keyboard {
 
-    background: #c1c1c1;
+    background: #363645;
     font: 100 0/0 serif;
     text-align: center;
     display: none;
@@ -57,7 +60,7 @@
 /* Rus keyboard */
 
 .rus_keyboard {
-    background: #c1c1c1;
+    background: #363645;
     font: 100 0/0 serif;
     text-align: center;
     display: none;
@@ -104,7 +107,7 @@
 /* Symbol keyboard */
 .sym_keyboard {
 
-    background: #c1c1c1;
+    background: #363645;
     font: 100 0/0 serif;
     text-align: center;
     display: none;
@@ -152,7 +155,7 @@
 
 .mob_keyboard {
     padding-top: 10px;
-    background: #4c4c4c;
+    background: #363645;
     font: 100 0/0 serif;
     text-align: center;
     display: none;
@@ -198,7 +201,7 @@
 
 /* Email Keyboard */
 .email_keyboard {
-    background: #c1c1c1;
+    background: #363645;
     font: 100 0/0 serif;
     text-align: center;
     display: none;

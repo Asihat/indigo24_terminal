@@ -8,19 +8,19 @@
 	<link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="mobile_internet_index">
 <?php
     session_start();
-    echo $_SESSION['lang'];
+    //echo $_SESSION['lang'];
 
     if(isset($_SESSION['lang'])){
         include "../../lang_".$_SESSION['lang'].".php";
-        echo "h1";
+        //echo "h1";
     }else{
         include "lang_ru.php";
-        echo "h2";
+        //echo "h2";
     }
-    echo _mob_service;
+    //echo _mob_service;
 ?>
 	<div class="header">
 		<div class="nav">
@@ -35,38 +35,20 @@
 				<img src="../../img/russian.png" alt="">
 				<img src="../../img/english.jpg" alt="">
 			</div>
-			<div class="phone_number">
-				<div class="real_number">
-					+7 702 362 41 63
-				</div>
-				<div class="text">
-					Тутынушыларды колдау телефоны
-				</div>
-			</div>
-			<div class="global_data">
-				<div class="day">
-					16 Апрель
-				</div>
-				<div class="year">
-					2019 г.
-				</div>
-			</div>
-			<div class="real_data">
-				<div class="real_time_data">
-					18:23
-				</div>
-				<div class="day_of_week">
-					Понедельник
-				</div>
-			</div>
+			<div class="search_header_block">
+                <input type="text" class="mobile_service">
+                <div class="search_logo">
+                    <img src="../../img/search.png" alt="">
+                </div>
+            </div>
 		</div>
 	</div>
 	
 	<div class="main_mob">
-        <p class="main_p"><?= _mob_service ?></p>
+        <p class="main_p">Mobile service</p>
 		<div class="mob_phones_page">
 			<div class="card_mob">
-				<a href="mob1.php">
+				<a href="active/index.php">
 					<img src="../../img/logos/644.gif" alt="">
 					<p>Active</p>
 				</a>			
@@ -96,7 +78,7 @@
         </a>
     </div>
 	<!-- Jquery -->
-	<script src="js/jquery-3.4.1.js"></script>
+	<script src="../../js/jquery-3.4.1.js"></script>
 	<!-- Own JavaScript -->
 	<script src="../../js/script.js"></script>
 </body>
